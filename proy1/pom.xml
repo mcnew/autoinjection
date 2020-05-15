@@ -9,6 +9,11 @@
 	<packaging>pom</packaging>
 	<name>proy1</name>
 
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
 	<modules>
 		<module>jar1</module>
 		<module>web1</module>
