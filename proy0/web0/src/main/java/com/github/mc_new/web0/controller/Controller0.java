@@ -11,10 +11,10 @@ import com.github.mc_new.jar0.bean.Datatype;
 import com.github.mc_new.jar0.service.DatatypeService;
 
 @RestController
-public class Controller1 {
+public class Controller0 {
 
 	@Autowired
-	DatatypeService service;
+	private DatatypeService service;
 
 	@GetMapping(path = "/controller")
 	public ResponseEntity<List<Datatype>> list() {
